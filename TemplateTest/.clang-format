@@ -1,0 +1,129 @@
+# フォーマットを無効化
+DisableFormat : false
+
+# ベースにするスタイル
+BasedOnStyle : Microsoft
+# アクセス修飾子のインデント位置
+AccessModifierOffset : -4
+# (), [], {}で改行した際に、要素を整列
+AlignAfterOpenBracket : Align
+# 変数への代入が連続した場合に、"=" で整列
+AlignConsecutiveAssignments : false
+# 連続する 行の宣言を揃える
+AlignConsecutiveDeclarations : false
+# エスケープされた改行文字を左側に表示する
+AlignEscapedNewlinesLeft : true
+# 二項演算子、三項演算子を水平方向に整列
+AlignOperands : true
+# 末尾のコメントを整列
+AlignTrailingComments : true
+# すべてのパラメータを次の行に宣言することを許可
+AllowAllParametersOfDeclarationOnNextLine : false
+# 短いブロックを1行に整形することを許可
+AllowShortBlocksOnASingleLine : false
+# 短いcaseラベルを1行に整形することを許可
+AllowShortCaseLabelsOnASingleLine : false
+# 短い関数を1行に整形する(None / Empty / Inline / All)
+AllowShortFunctionsOnASingleLine : None
+# 単一行のif文をキープすることを許可
+AllowShortIfStatementsOnASingleLine : false
+# 単一行のwhile文をキープすることを許可
+AllowShortLoopsOnASingleLine : false
+# 関数定義の戻り値型のあとに改行する(None / All / TopLevel / AllDefinitions / TopLevelDefinitions)
+AlwaysBreakAfterReturnType : None
+# 複数行のリテラル文字列の前で改行
+AlwaysBreakBeforeMultilineStrings : false
+# テンプレート宣言のtemplate<...>の後に改行
+AlwaysBreakTemplateDeclarations : true
+# falseの場合、関数呼び出しの引数をすべて同じ行か、1行ごとにする
+BinPackArguments : true
+# 関数呼び出しや関数定義のパラメータを1行ごとにする
+BinPackParameters : true
+# 括弧"{}"の整形スタイル(BreakBeforeBracesがCustomの場合に有効)
+BraceWrapping:
+# classの後の波括弧を改行するか
+    AfterClass : true
+# コントロールステートメント(if/for/while/switch/...)の後の波括弧を改行するか
+    AfterControlStatement : true
+# enumの後の波括弧を改行するか
+    AfterEnum : true
+# 関数の後の波括弧を改行するか
+    AfterFunction : true
+# namespaceの後の波括弧を改行するか
+    AfterNamespace : true
+# structの後の波括弧を改行するか
+    AfterStruct : true
+# unionの後の波括弧を改行するか
+    AfterUnion : true
+# catchの前の波括弧を改行するか
+    BeforeCatch : true
+# elseの前の波括弧を改行するか
+    BeforeElse : true
+# 関数呼び出しや関数定義のパラメータを1行ごとにするか
+    IndentBraces : false
+# 二項演算子の折返しスタイル(None / NonAssignment / All)
+BreakBeforeBinaryOperators : NonAssignment
+# 波括弧のフォーマットスタイル(Attach / Linux / Mozilla / Stroustrup / Allman / GNU / WebKit / Custom)
+BreakBeforeBraces: Custom
+# 三項演算子を改行の後に配置
+BreakBeforeTernaryOperators : true
+# コンストラクタ初期化子のカンマの前で改行し、コロンでカンマを揃える
+BreakConstructorInitializersBeforeComma : true
+# フォーマット時に文字列をリテラルを改行で調整
+BreakStringLiterals : false
+# 最大列数
+ColumnLimit : 0
+# コンストラクタの初期化子が行に収まらない場合は改行する
+ConstructorInitializerAllOnOneLineOrOnePerLine : true
+# コンストラクタの初期化子リストのインデントに使用する文字数
+ConstructorInitializerIndentWidth : 4
+# 継続行のためのインデント幅
+ContinuationIndentWidth : 4
+# C++11 カッコリストのスタイル?
+Cpp11BracedListStyle : false
+# ポインタ*や参照&の位置を自動判定
+DerivePointerAlignment : false
+# 詳細不明
+ExperimentalAutoDetectBinPacking : false
+# switchブロック内のcaseラベルをインデント
+IndentCaseLabels : false
+# インデント幅
+IndentWidth: 4
+# ブロック開始時の空行を保持する
+KeepEmptyLinesAtTheStartOfBlocks : false
+# 言語
+Language: Cpp
+# 最大連続空行数
+MaxEmptyLinesToKeep : 2
+# namespaceのインデントスタイル(None / Inner / All)
+NamespaceIndentation : All
+# ポインタ*や参照&の整列スタイル(Left / Right / Middle)
+PointerAlignment : Left
+# コメントのリフローを試みる
+ReflowComments : true
+# includeをソート
+SortIncludes : false
+# Cスタイルキャストの後のスペース
+SpaceAfterCStyleCast : false
+# 代入演算子の前のスペース
+SpaceBeforeAssignmentOperators : true
+# 開始括弧"("の前のスペーススタイル(Never / ControlStatements / Always)
+SpaceBeforeParens : ControlStatements
+# 空括弧"()"内のスペース
+SpaceInEmptyParentheses : false
+# 1行コメントの前のスペース幅
+SpacesBeforeTrailingComments : 2
+# 山括弧"<>"の内側のスペース
+SpacesInAngles : false
+# Cスタイルキャストのスペース
+SpacesInCStyleCastParentheses : false
+# 括弧"()"内のスペース
+SpacesInParentheses : false
+# 括弧"[]"内のスペース
+SpacesInSquareBrackets : false
+# 規格との互換性
+Standard : Cpp11
+# タブ幅
+TabWidth: 4
+# タブ使用スタイル(Never / ForIndentation / Always)
+UseTab: Never
